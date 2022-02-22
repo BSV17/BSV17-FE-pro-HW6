@@ -61,8 +61,9 @@ console.log(compareObjects(firstObj, secondObj));
 console.log("3. Написать функцию, которая принимает строку и возвращает данные о том, сколько раз встречается каждая буква.");
 
 let string = "aaaaaabbbbbbbbccc";
-let obj = {};
+
 function countLetters(str) {
+    let obj = {};
     for(let i = 0; i < str.length; i++) {
         let key = str[i];
 
